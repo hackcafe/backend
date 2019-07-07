@@ -1,0 +1,147 @@
+{
+    "all-hacks": [
+        {
+            "id": "filewipe",
+            "type": "hack",
+            "category": "fileio",
+            "name": "File Wiping",
+            "description": "Wipes some files."
+        },
+        {
+            "id": "filedup",
+            "type": "hack",
+            "category": "fileio",
+            "name": "File Duplication",
+            "description": "Duplicates itself."
+        },
+        {
+            "id": "filecrawl",
+            "type": "hack",
+            "category": "fileio",
+            "name": "File Crawl",
+            "description": "Crawls the entire filesystem."
+        },
+        {
+            "id": "filesearch",
+            "type": "hack",
+            "category": "fileio",
+            "name": "Search Files",
+            "description": "Search for files within the entire filesystem."
+        },
+        {
+            "id": "keylogger",
+            "type": "hack",
+            "category": "spyware",
+            "name": "Key Logger",
+            "description": "Logs key presses."
+        },
+        {
+            "id": "osinfodump",
+            "type": "hack",
+            "category": "spyware",
+            "name": "OS info dumper",
+            "description": "Dumps OS info."
+        },
+        {
+            "id": "locationdump",
+            "type": "hack",
+            "category": "spyware",
+            "name": "Location Retriever",
+            "description": "Retrieves the user's current location."
+        },
+        {
+            "id": "screensteal",
+            "type": "hack",
+            "category": "spyware",
+            "name": "Screen Steal",
+            "description": "Steals the user's computer screen."
+        },
+        {
+            "id": "webcamjack",
+            "type": "hack",
+            "category": "spyware",
+            "name": "Webcam Jack",
+            "description": "Fetches images from the webcam."
+        },
+        {
+            "id": "clickjack",
+            "type": "hack",
+            "category": "mischack",
+            "name": "Click Jack",
+            "description": "Mess with the user's mouse.",
+            "options": [
+                {
+                    "id": "clickjack1",
+                    "type": "option",
+                    "name": "Click Jack 1",
+                    "description": "1st option for click jacking."
+                },
+                {
+                    "id": "clickjack2",
+                    "type": "option",
+                    "name": "Click Jack 2",
+                    "description": "2nd option for click jacking."
+                }
+            ]
+        },
+        {
+            "id": "ddos",
+            "type": "hack",
+            "category": "mischack",
+            "name": "DDoS",
+            "description": "DDoS target computer."
+        },
+        {
+            "id": "remoteshutdown",
+            "type": "hack",
+            "category": "mischack",
+            "name": "Remote Shutdown",
+            "description": "Remotely shuts down the user's computer."
+        },
+        {
+            "id": "soundscare",
+            "type": "hack",
+            "category": "trollware",
+            "name": "Sound Scare",
+            "description": "Record 5 seconds from mic and play it back pitch-shifted."
+        },
+        {
+            "id": "win100",
+            "type": "hack",
+            "category": "trollware",
+            "name": "100 Windows of death",
+            "description": "Opens a random app 100 times."
+        }
+    ],
+    "hack-categories": [
+        {
+            "id": "fileio",
+            "type": "category",
+            "name": "File manipulation",
+            "description": "Wipes some files.",
+            "hacks": [ "filewipe", "filedup", "filecrawl", "filesearch" ]
+        },
+        {
+            "id": "spyware",
+            "type": "category",
+            "name": "Spyware",
+            "description": "Spy on people.",
+            "hacks": [ "keylogger", "osinfodump", "locationdump", "screensteal", "webcamjack" ]
+        },
+        {
+            "id": "trollware",
+            "type": "category",
+            "name": "Trollware",
+            "description": "Troll people.",
+            "hacks": [ "soundscare", "win100" ]
+        },
+        {
+            "id": "mischack",
+            "type": "category",
+            "name": "Misc. Hacks",
+            "description": "Miscellaneous Hacks",
+            "hacks": [ "clickjack", "ddos", "remoteshutdown" ]
+        }
+    ]
+}
+
